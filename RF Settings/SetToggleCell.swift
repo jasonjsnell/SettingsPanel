@@ -28,8 +28,10 @@ class SetToggleCell: SetCell {
         //add the switch to the row cell
         self.accessoryView = UIView(frame:toggleSwitch.frame);
         self.accessoryView?.addSubview(toggleSwitch);
-        self.accessoryView?.backgroundColor = UIColor.black
         self.selectionStyle = .none;
+        
+        //use default style
+        //self.accessoryView?.backgroundColor = UIColor.black
         
     }
     

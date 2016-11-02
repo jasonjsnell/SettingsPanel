@@ -88,6 +88,7 @@ class SetMultiTable: SetTable {
     //MARK: USER INPUT
     
     //user taps row
+    /*
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         print("multi tap - THIS IS NOT TRIGGERING - SetMultiTable didSelectRowAt...")
@@ -97,13 +98,14 @@ class SetMultiTable: SetTable {
             
         //change color of highlight
         let highlightCell:UIView = UIView(frame:cell.frame)
-        highlightCell.backgroundColor = styles.GREY_DARK
+        //highlightCell.backgroundColor = styles.GREY_DARK
         cell.selectedBackgroundView =  highlightCell;
 
         //deselect row so the grey background flashes
         tableView.deselectRow(at: indexPath, animated: true)
         
     }
+     */
     
     
 }

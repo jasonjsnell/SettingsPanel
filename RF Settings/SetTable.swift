@@ -45,9 +45,9 @@ class SetTable: UITableViewController {
         tableView.delegate = self;
         tableView.dataSource = self;
         
-        //apply styles
-        self.view.backgroundColor = UIColor.black //SetStyles.sharedInstance.GREY_LIGHT;
-        tableView.backgroundColor = UIColor.black //SetStyles.sharedInstance.GREY_LIGHT;
+        //styles - use default
+        //self.view.backgroundColor = SetStyles.sharedInstance.GREY_LIGHT;
+        //tableView.backgroundColor = SetStyles.sharedInstance.GREY_LIGHT;
         
         
     }
@@ -61,15 +61,16 @@ class SetTable: UITableViewController {
     //MARK:-
     //MARK: USER INPUT
     
-    //MARK: STYLES
+    //MARK: STYLES (use defaults)
     
+    /*
     //add style to hearder
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
         let headerCell:UITableViewHeaderFooterView = UITableViewHeaderFooterView(reuseIdentifier: "HeaderCell");
-        headerCell.contentView.backgroundColor = UIColor.black //styles.GREY_LIGHT;
-        headerCell.textLabel?.textColor = UIColor.white //styles.GREY_MID_DARK;
-        headerCell.textLabel?.font = UIFont.boldSystemFont(ofSize: 14)
+        //headerCell.contentView.backgroundColor = styles.GREY_LIGHT;
+        //headerCell.textLabel?.textColor = styles.GREY_MID_DARK;
+        //headerCell.textLabel?.font = UIFont.boldSystemFont(ofSize: 14)
         return headerCell
         
     }
@@ -78,10 +79,11 @@ class SetTable: UITableViewController {
     override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         
         let footerCell:UITableViewHeaderFooterView = UITableViewHeaderFooterView(reuseIdentifier: "FooterCell");
-        footerCell.contentView.backgroundColor = UIColor.black //styles.GREY_LIGHT;
+        //footerCell.contentView.backgroundColor = styles.GREY_LIGHT;
         return footerCell
         
     }
+     */
     
     
     //MARK:-

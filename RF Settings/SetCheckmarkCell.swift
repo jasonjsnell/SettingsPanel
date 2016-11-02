@@ -22,7 +22,6 @@ class SetCheckmarkCell: SetCell {
             self.accessoryType = .none
         }
         
-        
     }
     
     required init?(coder aDecoder: NSCoder) {

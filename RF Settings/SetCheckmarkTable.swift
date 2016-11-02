@@ -127,7 +127,7 @@ class SetCheckmarkTable: SetTable {
             
             //change color of highlight
             let highlightCell:UIView = UIView(frame:cell.frame)
-            highlightCell.backgroundColor = styles.GREY_DARK
+            highlightCell.backgroundColor = styles.GREY_MID
             cell.selectedBackgroundView =  highlightCell;
             
             

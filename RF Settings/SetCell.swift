@@ -28,12 +28,13 @@ class SetCell: UITableViewCell {
         
         self.textLabel?.text = data.label;
         
-        self.layer.borderWidth = styles.TABLE_BORDER_WIDTH;
-        self.layer.borderColor = styles.GREY_MID.cgColor;
+        //use defaults
+        //self.layer.borderWidth = styles.TABLE_BORDER_WIDTH;
+        //self.layer.borderColor = styles.GREY_MID.cgColor;
 
-        self.backgroundColor = UIColor.black
-        self.contentView.backgroundColor = UIColor.black
-        self.textLabel?.textColor = UIColor.white
+        //self.backgroundColor = UIColor.black
+        //self.contentView.backgroundColor = UIColor.black
+        //self.textLabel?.textColor = UIColor.white
         
     }
     
